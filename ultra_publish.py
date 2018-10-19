@@ -37,7 +37,7 @@ try:
 		p.single(topic = "water_level",                                   
 			payload= str(i),
 			hostname="broker.shiftr.io",
-			auth={"username":'harharhar',"password":'harshit123'})
+			auth={"username":'maymaymay',"password":'mayank123'})
 		print "distance is : ", + i
 		sleep(1)
 except Exception as ex:
