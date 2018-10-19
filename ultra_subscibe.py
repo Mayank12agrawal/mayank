@@ -11,7 +11,7 @@ try:
 	while True:
 		msg = s.simple("water_level", #previosly not work::::::::::::::::topic = "water_level"
 				hostname="broker.shiftr.io",
-				auth = {"username":'harharhar',"password":'harshit123'})
+				auth = {"username":'maymaymay',"password":'mayank123'})
 		print "Message is :"+msg.payload
 
 		i = float(msg.payload)
